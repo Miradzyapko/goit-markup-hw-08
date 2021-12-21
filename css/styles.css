@@ -3,29 +3,41 @@
 /*белый*/
 /*акцент*/
 /*вторичный цвет фона*/
-body{
-    background-color: var(--primary-white-color) ;
-color: var(--primary-text-color);  
-font-family:Roboto, sans-serif;
-} 
 
 
+:root {
+--header-color:#FFFFFF;
+--btn-color:#2196F3;
+--accent-color:#2196F3;
+}
 
-:root { (--primary-text-color: #212121;
-) rgba
---title-text-color:
---accent color
-.site-nav list.:hover {color: tomato var(--title text color);}
---accent color:var(--primary-text-color);
+body {
+    font-family: Roboto, sans-serif;
+ color:#212121;
 }
 
 
 
 
 
- 
+   
 
+.header-link:hover,.header-link:focus {color:var(--accent-color);}
+.header-mail {color: #2196F3}
 
+.list {
+    list-style: none;}
+.link {
+    text-decoration: none ;}
+ul {color: #000;}
+.header-tel {color: #757575;}
+.hero-title 
+
+.hero-btn:{color:var(--header-color ) ;}
+
+.about-post-title {color: #757575;
+
+   line-height 1.14em;}
 
 
 
