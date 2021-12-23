@@ -23,6 +23,12 @@ body {
    
 
 .header-link:hover,.header-link:focus {color:var(--accent-color);}
+.header-link{
+font-family: Roboto, sans-serif;
+ color:#212121;}
+ .header-contact {font-family: Roboto, sans-serif;
+ color:#212121;}
+}
 .header-mail {color: #2196F3}
 
 .list {
@@ -33,11 +39,11 @@ ul {color: #000;}
 .header-tel {color: #757575;}
 .hero-title 
 
+
 .hero-btn:{color:var(--header-color ) ;}
 
 .about-post-title {color: #757575;
-
-   line-height 1.14em;}
-
+   line-height 1.188em;}
+.footer-logo link {color: ;}
 
 
