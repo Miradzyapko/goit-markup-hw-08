@@ -44,6 +44,12 @@ ul {color: #000;}
 
 .about-post-title {color: #757575;
    line-height 1.188em;}
-.footer-logo link {color: ;}
-
-
+.footer-logo {color:#2196F3;}
+.logo link{color:#2196F3 ;}
+.footer-link{font-style:normal;
+ color:#FFFFFF;   
+background-color:#2F303A;
+}
+.logo-second {color: lawngreen;
+ font-family:Raleway;   
+}
