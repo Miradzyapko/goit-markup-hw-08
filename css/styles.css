@@ -6,9 +6,10 @@
 
 
 :root {
---header-color:#FFFFFF;
---btn-color:#2196F3;
+--header-color:#212121;
+--btn-color:#FFFFFF;
 --accent-color:#2196F3;
+--first-color: #FFFFFF;
 }
 
 body {
@@ -16,12 +17,21 @@ body {
  color:#212121;
 }
 
-
-
-
-
-   
-
+.header-logo {color:#2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height 1.17em;
+text-align: left;}
+.header-logo-second {font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height:1.192em;
+text-align: left;
+}
+.header-logo-second {color:var(--header-color);}
 .header-link:hover,.header-link:focus {color:var(--accent-color);}
 .header-link{
 font-family: Roboto, sans-serif;
@@ -29,7 +39,8 @@ font-family: Roboto, sans-serif;
  .header-contact {font-family: Roboto, sans-serif;
  color:#212121;}
 }
-.header-mail {color: #2196F3}
+.header-mail:hover,.header-link:focus{color:var(--accent-color);
+    }
 
 .list {
     list-style: none;}
@@ -37,19 +48,54 @@ font-family: Roboto, sans-serif;
     text-decoration: none ;}
 ul {color: #000;}
 .header-tel {color: #757575;}
-.hero-title 
+.hero-title{background-color: #2F303A;color: var(--first-color);
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-align: center;
+}
+.h3 {font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line: height 1.71em;
+text-align: left;
+}
+.p {font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.714em;
+text-align: left;
+color: #757575;
+}
 
-
-.hero-btn:{color:var(--header-color ) ;}
-
+.hero-btn-accent:hover,.hero-btn-accent:focus {color:var(--btn-color);}
+.hero-btn-accent{background-color:#2196F3;}
 .about-post-title {color: #757575;
    line-height 1.188em;}
-.footer-logo {color:#2196F3;}
+
+ .footer {background-color: #2F303A}  
+.footer-logo {color:#2196F3;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height:1.17em;
+text-align: left;
+}
+
+.footer-logo-second {color: var(--first-color);}
 .logo link{color:#2196F3 ;}
 .footer-link{font-style:normal;
  color:#FFFFFF;   
 background-color:#2F303A;
-}
-.logo-second {color: lawngreen;
- font-family:Raleway;   
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line: height 1.714em;;
+text-align: left;
 }
