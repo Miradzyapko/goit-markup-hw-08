@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
 line-height: 1.7;
 letter-spacing:  0.03em;
@@ -30,7 +30,7 @@ color: var(--header-color);
 
 
 .logo {color:var(--accent-color);
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
@@ -44,8 +44,9 @@ text-align: left;}
     line-height: 1.14;
     text-align: left;
    }
+   .header-nav.current {color: var(--accent-color);}
    
-.header-mail:hover,.header-link:focus {color: var(--accent-color);
+.header-link:hover,.header-link:focus {color: var(--accent-color);
     }
  .header-mail  {
     color: var(--header-color-second);
@@ -53,7 +54,7 @@ text-align: left;}
     .header-tel{color: var(--header-color-second);}
 
 
-.hero-title{background-color: #2F303A;color: var(--first-color);
+.hero-title{background-color: #2F303A;color:var(--first-color);
 font-size: 44px;
 font-style: normal;
 font-weight: 900;
@@ -62,7 +63,7 @@ letter-spacing: 0.06em;
 text-align: center;
 }
 
-}
+
 
  .hero-button-accent{
 font-size: 16px;
@@ -97,7 +98,7 @@ font-weight: 700;
 line-height: 2;
 letter-spacing: 0.06em;
 }
-.
+
 
 .about-post-title {color:var(--header-color-second);
 font-weight: 400;
