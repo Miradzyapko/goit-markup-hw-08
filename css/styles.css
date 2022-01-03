@@ -1,24 +1,25 @@
-/*цвет основного текста*/
-/*вторичный цвет текста*/
-/*белый*/
-/*акцент*/
-/*вторичный цвет фона*/
 
 
 :root {
---header-color:#212121;
+--color-primery:#212121;
 --btn-color:#FFFFFF;
 --accent-color:#2196F3;
 --first-color: #FFFFFF;
---header-color-second: #757575;
-}
+--color-second: #757575;
+--bg-btn-color-primary:#2196F3;
+--bg-btn-color-second:#F5F4FA;
+--footer-color: #FFFFFF99;}
+
+
+
+
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-line-height: 1.7;
+line-height: 1.71;
 letter-spacing:  0.03em;
-color: var(--header-color);
+color: var(--color-primery);
 }
 
 .link { color: inherit;
@@ -26,7 +27,6 @@ color: var(--header-color);
  
 
 .list {list-style: none;}
-
 
 
 .logo {color:var(--accent-color);
@@ -37,72 +37,91 @@ font-weight: 700;
 line-height: 1.17;
 text-align: left;}
 
-.header-logo-second {color:var(--header-color);}
-.header-item{ color: var(--header-color);
+.header-logo-second {color:var(--color-primery);}
+.header-item{ color: var(--color-primery);
     font-style: normal;
     font-weight: 500;
-    line-height: 1.14;
+    line-height: 1.17;
     text-align: left;
    }
    .header-nav.current {color: var(--accent-color);}
    
 .header-link:hover,.header-link:focus {color: var(--accent-color);
     }
- .header-mail  {
-    color: var(--header-color-second);
+ .header-mail:hover,.header-mail:focus {color: var(--accent-color);}
+ .header-mail {color:var(--color-second);
+    line-height: 1.17;
+    letter-spacing: 0.02em;
     }
-    .header-tel{color: var(--header-color-second);}
+    .header-tel {color: var(--color-second);
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    }
 
 
-.hero-title{background-color: #2F303A;color:var(--first-color);
+.hero-title{background-color:var(--color-primery);color:var(--first-color);
+text-transform: uppercase;
 font-size: 44px;
 font-style: normal;
 font-weight: 900;
-line-height: 1.4;
+line-height: 1.36;
 letter-spacing: 0.06em;
 text-align: center;
 }
 
 
-
- .hero-button-accent{
+button{font-family: "Roboto", sans-serif;
 font-size: 16px;
-font-weight: 700;
-line-height: 1.9;
+font-weight: 500;
+line-height: 1.63;
+letter-spacing: 0.03em;
 text-align: center;
 }
-.hero-button-accent :hover,.btn-accent:focus {color:var(--first-color);
- background-color:var(--accent-color);}
-.hero-btn-accent{
-font-size: 16px;
-font-weight: 500;
-line-height: 1.6;
+.button-accent {background-color:  var(--bg-btn-color-primary);
+ color: var(--btn-color);
+font-weight: 700;
+line-height:1.88 ;
+}
+.button-accent :hover,.button-accent:focus {color:var(--btn-color);}
+.button-primary :hover,.button-primary:focus {color:var(--btn-color);}
+.button-primary {
+ background-color:  var(--bg-btn-color-primary);
+ color: var(--btn-color); 
+
+}
+   
+.button-second{ background: var(--bg-btn-color-second);}
+
+
+
+ 
+ .about-post-title {color: var(--color-second);}
+ .work-title {line-height: 1.17;
+font-size:  36px; }
+.workers {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.16;
 letter-spacing: 0.03em;
-text-align: center;
-
-   }
-.hero-btn-accent:hover,.hero-btn-accent:focus {color:var(--first-color);
- background-color:var(--accent-color);}
- .hero-btn {
-font-size: 16px;
-font-weight: 500;
-line-height:1.6;
-letter-spacing: 0.03em;
-
-
-
- }
+}
  .section-title {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+
+
+.section-post-title {color:var(--color-second);
+font-weight: 400;
+line-height: 1.17;
+}
+.title {
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 0.06em;
-}
-
-
-.about-post-title {color:var(--header-color-second);
-font-weight: 400;
-line-height: 1.9;
+text-align: left;
 }
 .portfolio-title {
 font-size: 16px;
@@ -110,18 +129,19 @@ font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.03em;
 text-align: left;
-color: var(--header-color-second);
+color: var(--color-second);
 }
 
-.footer {background-color:var(--header-color);}  
+.footer {background-color:var(--color-primery);}  
 
 .footer-logo-second {color: var(--first-color);}
-.logo link{color:#2196F3 ;}
+.logo link{color:var(--accent-color) ;}
 .adress {font-style:normal;
  color:var(--first-color);   
-background-color:var(--header-color);
+background-color:var(--color-primery);
 font-size: 14px;
 font-weight: 400;
-line-height:  1.714;
+line-height:  1.71;
 text-align: left;
 }
+.footer-item {color: var(--footer-color);}
