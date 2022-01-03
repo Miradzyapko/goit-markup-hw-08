@@ -92,7 +92,16 @@ line-height:1.88 ;
    
 .button-second{ background: var(--bg-btn-color-second);}
 
+.visually-hidden {position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow:hidden;
+border: 0;
+clip: rect(0 0 0 0); 
 
+}
 
  
  .about-post-title {color: var(--color-second);}
