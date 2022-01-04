@@ -76,6 +76,7 @@ font-weight: 500;
 line-height: 1.63;
 letter-spacing: 0.03em;
 text-align: center;
+cursor: pointer;
 }
 .button-accent {background-color:  var(--bg-btn-color-primary);
  color: var(--btn-color);
