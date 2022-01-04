@@ -1,11 +1,11 @@
 
 
 :root {
---color-primery:#212121;
+--color-primery:#757575;
 --btn-color:#FFFFFF;
 --accent-color:#2196F3;
 --first-color: #FFFFFF;
---color-second: #757575;
+--color-second: #212121;
 --bg-btn-color-primary:#2196F3;
 --bg-btn-color-second:#F5F4FA;
 --footer-color: #FFFFFF99;}
@@ -37,11 +37,11 @@ font-weight: 700;
 line-height: 1.17;
 text-align: left;}
 
-.header-logo-second {color:var(--color-primery);}
+.header-logo-second {color:var(--color-second);}
 .header-item{ color: var(--color-primery);
     font-style: normal;
     font-weight: 500;
-    line-height: 1.17;
+    line-height: 
     text-align: left;
    }
    .header-nav.current {color: var(--accent-color);}
@@ -49,11 +49,11 @@ text-align: left;}
 .header-link:hover,.header-link:focus {color: var(--accent-color);
     }
  .header-mail:hover,.header-mail:focus {color: var(--accent-color);}
- .header-mail {color:var(--color-second);
+ .header-mail {
     line-height: 1.17;
     letter-spacing: 0.02em;
     }
-    .header-tel {color: var(--color-second);
+    .header-tel {
     line-height: 1.17;
     letter-spacing: 0.02em;
     }
@@ -103,9 +103,11 @@ border: 0;
 clip: rect(0 0 0 0); 
 
 }
-
+.about-title {text-transform: uppercase;
+color: var(--color-second);
+}
  
- .about-post-title {color: var(--color-second);}
+ .about-post-title 
  .work-title {line-height: 1.17;
 font-size:  36px; }
 .workers {
@@ -133,13 +135,14 @@ line-height: 2;
 letter-spacing: 0.06em;
 text-align: left;
 }
-.portfolio-title {
+.portfolio-text {
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.03em;
 text-align: left;
 color: var(--color-second);
+text-decoration: none;
 }
 
 .footer {background-color:var(--color-primery);}  
