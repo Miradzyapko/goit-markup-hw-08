@@ -11,9 +11,6 @@
 --footer-color: #FFFFFF99;}
 
 
-
-
-
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -44,20 +41,14 @@ text-align: left;}
     line-height: 
     text-align: left;
    }
-   .header-nav.current {color: var(--accent-color);}
+   .header-nav-link {line-height: 1.17;
+letter-spacing: 00.02em;}
+   .header-nav-link.current {color: var(--accent-color);}
    
 .header-link:hover,.header-link:focus {color: var(--accent-color);
     }
- .header-mail:hover,.header-mail:focus {color: var(--accent-color);}
- .header-mail {
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    }
-    .header-tel {
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    }
-
+ .header-contact-list:hover,.header-contact-list:focus {color: var(--accent-color);}
+ 
 
 .hero-title{background-color:var(--color-primery);color:var(--first-color);
 text-transform: uppercase;
@@ -71,27 +62,18 @@ text-align: center;
 
 
 button {font-family:inherit;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.63;
-letter-spacing: 0.03em;
-text-align: center;
 cursor: pointer;
 }
 .button-accent {background-color:  var(--bg-btn-color-primary);
  color: var(--btn-color);
+ font-size: 16px;
 font-weight: 700;
 line-height:1.88 ;
+letter-spacing: 0.03em;
+text-align: center;
 }
 .button-accent :hover,.button-accent:focus {color:var(--btn-color);}
-.button-primary :hover,.button-primary:focus {color:var(--btn-color);}
-.button-primary {
- background-color:  var(--bg-btn-color-primary);
- color: var(--btn-color); 
 
-}
-   
-.button-second{ background: var(--bg-btn-color-second);}
 
 .visually-hidden {position: absolute;
 width: 1px;
@@ -105,57 +87,91 @@ clip: rect(0 0 0 0);
 }
 .about-title {text-transform: uppercase;
 color: var(--color-second);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.17;
 }
  
  .about-post-title 
- .work-title {line-height: 1.17;
-font-size:  36px; }
-.workers {
-font-size: 36px;
-font-weight: 700;
-line-height: 1.16;
-letter-spacing: 0.03em;
-}
- .section-title {color: var(--color-second);
-font-size: 16px;
+
+
+
+
+
+
+.section-item {font-size: 16px;
 font-weight: 500;
 line-height: 1.17;
-letter-spacing: 0.03em;
 }
 
 
-.section-post-title {color:inherit);
-font-weight: 400;
+
+
+.section-title {font-size: 36px;
+color: var(--color-second);
 line-height: 1.17;
+letter-spacing: 0.03em;}
+
+
+.section-team-title {color: var(--color-second);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.17;}
+.section-post-title {font-size:16px;
+font-weight: 400;
+line-height:1.17;}
+
+
+
+.footer {background-color:var(--color-primery);}  
+
+.footer-logo-second {color: var(--first-color);}
+.logo link {color:var(--accent-color);}
+.adress {font-style:normal;
 }
-.title {
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
-letter-spacing: 0.06em;
-text-align: left;
+.footer-link:hover,.footer-link:focus {color: var(--accent-color);}
+.footer-link {color:var(--footer-color);   
 }
-.portfolio-item{text-decoration: none;}
+.footer-link[target="_blank"]:hover,.footer-link[target="_blank"]:focus {color: var(--accent-color);}
+
+
+.footer-link[target="_blank"] {color: var(--first-color);}
+
+
+
+.portfolio-item {text-decoration: none;
+    font-family: inherit;}
 .portfolio-text {
 font-size: 16px;
 font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.03em;
 text-align: left;
-color: var(--color-second);
+
 
 }
+.button-primary :hover,.button-primary:focus {color:var(--accent-color);}
+.button-primary{font-weight: 500;
+line-height: 1.63;
+font-size: 16px;
+letter-spacing: 0.03em;
+font-family: inherit;}
 
-.footer {background-color:var(--color-primery);}  
+.button-primary-all:hover,.button-primary-all:focus{color: var(--accent-color);}
 
-.footer-logo-second {color: var(--first-color);}
-.logo link{color:var(--accent-color) ;}
-.adress {font-style:normal;
- color:var(--first-color);   
-background-color:var(--color-primery);
-font-size: 14px;
-font-weight: 400;
-line-height:  1.71;
+.button-primary-all {background-color: var(--bg-btn-color-primary);
+ color: var(--btn-color); 
+
+}
+   
+.button-second{ background: var(--bg-btn-color-second);}
+.button-second
+
+
+
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
 text-align: left;
 }
-.footer-item {color: var(--footer-color);}
