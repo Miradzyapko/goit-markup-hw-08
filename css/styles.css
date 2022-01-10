@@ -23,6 +23,11 @@ color: var(--color-primery);
 .link { color: inherit;
     text-decoration: none ;}
 .list {list-style: none;}
+.container {width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
 
 
 .logo {color:var(--accent-color);
