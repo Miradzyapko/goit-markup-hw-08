@@ -19,15 +19,21 @@ line-height: 1.71;
 letter-spacing:  0.03em;
 color: var(--color-primery);
 }
+p, h1,h2,h3,ul {margin: 0;
+    padding: 0;}
+.container { width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+    }
 
 .link { color: inherit;
     text-decoration: none ;}
 .list {list-style: none;}
-.container {width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
-}
+
+
+
 
 
 .logo {color:var(--accent-color);
