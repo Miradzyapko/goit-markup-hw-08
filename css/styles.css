@@ -41,6 +41,8 @@ margin: 0;}
 .header {padding-top: 24px;
 padding-bottom: 25px;}
 
+.header-list {display: flex;}
+
 .logo {color:var(--accent-color);
 font-family: "Raleway";
 font-size: 26px;
