@@ -19,13 +19,15 @@ line-height: 1.71;
 letter-spacing:  0.03em;
 color: var(--color-primery);
 }
-p, h1,h2,h3,ul {margin: 0;
-    padding: 0;}
+p, h1,h2,h3 {margin: 0;}
+ul  {padding: 0;
+margin: 0;}
 .container { width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     outline: 2px solid tomato;
+    
     }
 
 .link { color: inherit;
@@ -35,7 +37,7 @@ p, h1,h2,h3,ul {margin: 0;
 
 
 
-
+.header {margin-bottom: 24px;}
 .logo {color:var(--accent-color);
 font-family: "Raleway";
 font-size: 26px;
@@ -49,16 +51,18 @@ text-align: left;}
     font-weight: 500;
    }
 .header-nav-link {
-letter-spacing: 0.02em;}
+letter-spacing: 0.02em;
+}
 
 
    
-.header-nav-link:hover,.header-nav-link:focus, .current {color: var(--accent-color);
+.header-nav-link:hover,.header-nav-link:focus,.header-nav-link.current {color: var(--accent-color);
     }
 
  
 .hero {background-color: var(--footer-bg-color);
 text-align: center;
+margin-bottom: 126px;
 }
 .hero-title{color:var(--first-color);
 text-transform: uppercase;
@@ -80,7 +84,7 @@ line-height:1.88 ;
 letter-spacing: 0.06em;
 text-align: center;
 }
-.button-accent:hover,.button-accent:focus {color:var(--accent-color);}
+.button-accent:focus, .current {color:var(--btn-color);}
 
 
 .visually-hidden {position: absolute;
@@ -93,6 +97,7 @@ border: 0;
 clip: rect(0 0 0 0); 
 
 }
+.about{margin-bottom: 93px;}
 .about-title {text-transform: uppercase;
 color: var(--color-second);
 font-size: 14px;
