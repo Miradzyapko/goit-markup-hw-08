@@ -68,7 +68,7 @@ padding-bottom:25px;}
     font-weight: 500;
 display: flex;}
  
-.header-nav-link{
+.header-nav-link{font-weight: 500;
 letter-spacing: 0.02em;
 display: block;
 
@@ -193,15 +193,15 @@ margin-bottom: 20px;}
 }
 
 
-.button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
-    color:var(--btn-color);}
+
 .button-primary{color: var(--color-second);
 font-weight: 500;
 line-height: 1.63;
 font-size: 16px;
 letter-spacing: 0.03em;
 }
-
+.button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
+    color:var(--btn-color);}
 .portfolio-list {display: flex;
 flex-wrap: wrap;
 margin-right:-30px;
