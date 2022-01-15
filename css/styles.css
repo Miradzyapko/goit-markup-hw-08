@@ -113,6 +113,7 @@ border:none ;
 margin-bottom: 50px;}
 .button-item {display: inline-block;
 }
+.button-item:not(:last-child) {margin-right: 8px;}
 .button-accent {background-color:  var(--bg-btn-color-primary);
  color: var(--btn-color);
  font-size: 16px;
@@ -210,14 +211,13 @@ margin-bottom: 20px;}
 
 
 
-.button-primary{color: var(--color-second);
+.button-primary {color: var(--color-second);
 font-weight: 500;
 line-height: 1.63;
 font-size: 16px;
 letter-spacing: 0.03em;
 padding: 6px 22px;
 }
-.button-primary:not(:last-child) {margin-left: 8px;}
 .button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
     color:var(--btn-color);}
 
@@ -242,15 +242,3 @@ margin-bottom: 4px;
 font-size: 16px;
 line-height: 1.88;
 }
-*/*visually-hidden
-.visually-hidden {position: absolute;
-width: 1px;
-height: 1px;
-margin: -1px;
-padding: 0;
-overflow:hidden;
-border: 0;
-clip: rect(0 0 0 0); 
-
-}
-
