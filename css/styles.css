@@ -88,7 +88,9 @@ display: block;
     }
 
  
-.hero {background-color: var(--footer-bg-color);
+.hero { background-color: var(--footer-bg-color);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herobg.jpg);  background-repeat: no-repeat;background-position: center; background-size:cover;
+flex-grow: 1;
 text-align: center;
 padding-bottom: 200px;
 padding-top: 200px;
@@ -185,8 +187,18 @@ font-weight: 500;
 line-height: 1.17;
 margin-bottom: 10px;}
 .section-post-title {font-size:16px;
-line-height:1.17;}
+line-height:1.17;
+margin-bottom: 16px;}
+.team-social-list {display: flex;
+justify-content: center;}
+.team-social-link + .team-social-link {margin-left: 10px;}
 
+.team-social-link {background-color:var(--first-color);
+width:44px;height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius:50% ;}
 
 
 .footer {background-color:var(--footer-bg-color);
