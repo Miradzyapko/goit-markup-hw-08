@@ -149,6 +149,15 @@ margin-bottom:-30px;
 }
 .item {margin-left: 30px;
 margin-top: 30px;}
+.future-list {display: flex;
+justify-content:center ;}
+.future-link { background-color:var(--color-primery);
+width:270px;
+height: 120px;
+
+align-items: center;
+
+}
 .about-item {flex-basis: calc(100% / 4 - 30px);}
 
 
