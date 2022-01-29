@@ -13,6 +13,8 @@
 --color-border-portfolio: #EEEEEE;
 --color-border-bottom-header: #ECECEC;
 --bg-color-team: #F5F4FA;
+--bg-color-icon-footer: #FFFFFF1A;
+
 
 }
 
@@ -151,13 +153,12 @@ margin-bottom:-30px;
 margin-top: 30px;}
 .future-list {display: flex;
 justify-content:center ;}
-.future-link { background-color:var(--color-primery);
-width:270;
-height: 120;
+.future-item {
+ 
 
-align-items: center;
+align-items: center;}
 
-}
+
 .about-item {flex-basis: calc(100% / 4 - 30px);}
 
 
@@ -215,21 +216,28 @@ align-items: center;
 border-radius: 50% ;
 color:var(--color-primery);
 }
-.team-social-icon :only-first-child {background-color: var(--accent-color); fill: var(--first-color);}
+.team-social-icon:only(:first-child) {background-color: var(--accent-color); fill: var(--first-color);}
 .team-social-icon {fill: currentColor;}
 .team-social-link:hover,.team-social-link:focus {background: var(--accent-color);
 color:var(--accent-color);}
-.client-list {display: flex;
+
+.client-item {flex-basis: calc(100% / 6 - 30px);
+margin-left: 30px;}
+.client-icon {width:106px;
+height: 60px;
+display: flex;
 justify-content: center;
-
+align-items: center;
 }
-
-
 
 .footer {background-color:var(--footer-bg-color);
 padding-top: 60px;
-padding-bottom: 60px;}  
-.footer .logo {margin-bottom: 20px;}
+padding-bottom: 60px;
+}  
+.footer .logo {margin-bottom: 20px;
+  margin-right: 156px; 
+}
+
 .footer-logo-second {color: var(--first-color);}
 .logo link  {color:var(--accent-color);
 margin-bottom: 20px;}
@@ -245,8 +253,33 @@ margin-bottom: 20px;}
 .footer-link[target="_blank"] {color: var(--first-color);}
 .footer-item:not(:last-child) {margin-bottom: 9px ;
 }
+.footer-title {text-transform: uppercase;
+color: var(--first-color);
+}
+.footer-container {display: flex;}
+.footer-title {font-size: 14px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+margin-top: 12px;
+margin-bottom: 20px;
 
 
+
+}
+.footer-social-list {display: flex;
+justify-content: center;}
+
+.footer-social-link {margin-right: 10px;}
+
+.footer-social-link {width:44px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50% ;
+background:var(--bg-color-icon-footer);
+fill: var(--first-color);
+}
 
 .button-primary {color: var(--color-second);
 font-weight: 500;
