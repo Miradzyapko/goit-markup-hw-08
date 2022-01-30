@@ -14,6 +14,7 @@
 --color-border-bottom-header: #ECECEC;
 --bg-color-team: #F5F4FA;
 --bg-color-icon-footer: #FFFFFF1A;
+--inher-border-color: #AFB1B8;
 
 
 }
@@ -79,6 +80,23 @@ align-items: center;
 .header-item { color: var(--color-second);
     font-weight: 500;
 display: flex;}
+ 
+.mail ::before {content: "";
+display: block;
+width: 10px;
+height: 12px;
+background-size:contain;
+}
+.tel::before {content: "";
+display: block;
+width: 10px;
+height: 12px;
+background-size:contain;}
+.mail-icon {margin-right: 10px;}
+.tel-icon {margin-right: 10px;}
+
+
+
  
 .header-nav-link {font-weight: 500;
 letter-spacing: 0.02em;
@@ -152,14 +170,24 @@ margin-bottom:-30px;
 .item {margin-left: 30px;
 margin-top: 30px;}
 .future-list {display: flex;
-justify-content:center ;}
-.future-item {
- 
-
+justify-content:center;
 align-items: center;}
+.future-icon {
+background: var(--bg-color-team);
+content: "";
+width: 270px;
+height:120px;
+display: block;
+margin-right: 30px;
+justify-content: center;
+align-items: center;
+background-size:cover ;
+}
 
 
-.about-item {flex-basis: calc(100% / 4 - 30px);}
+.list-about-item {flex-basis: calc(100% / 4 - 30px);}
+
+
 
 
 .about-title {text-transform: uppercase;
@@ -216,18 +244,23 @@ align-items: center;
 border-radius: 50% ;
 color:var(--color-primery);
 }
-.team-social-icon:only(:first-child) {background-color: var(--accent-color); fill: var(--first-color);}
+
 .team-social-icon {fill: currentColor;}
 .team-social-link:hover,.team-social-link:focus {background: var(--accent-color);
 color:var(--accent-color);}
 
 .client-item {flex-basis: calc(100% / 6 - 30px);
 margin-left: 30px;}
-.client-icon {width:106px;
-height: 60px;
-display: flex;
+
+.client-icon {width:170px;
+height: 92px;
+display: block;
 justify-content: center;
 align-items: center;
+content: "";
+background:var(--first-color);
+
+
 }
 
 .footer {background-color:var(--footer-bg-color);
@@ -280,6 +313,10 @@ border-radius: 50% ;
 background:var(--bg-color-icon-footer);
 fill: var(--first-color);
 }
+.footer-social-link:hover,.footer-social-link:focus {background: var(--accent-color);
+color:var(--accent-color);}
+
+.footer-icon:hover,.footer-icon:focus {fill: var(--accent-color);}
 
 .button-primary {color: var(--color-second);
 font-weight: 500;
@@ -289,13 +326,17 @@ letter-spacing: 0.03em;
 padding: 6px 22px;
 }
 .button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
-    color:var(--btn-color);}
+    color:var(--btn-color); box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12) ;}
 
-.portfolio-item {flex-basis: calc(100% / 3 - 30px);
+.portfolio-item {flex-basis: calc(100% / 3 - 30px);}
+.portfolio-item:hover {
 
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 background: var(--first-color);
 }
+
+.portfolio-title:hover,.portfolio-title:focus {color: var(--accent-color);}
+.portfolio-text:hover,.portfolio-text:focus {color: var(--accent-color);}
 
 
 .portfolio-item {
