@@ -261,7 +261,7 @@ width: 20px;
 height: 20px;}
 .social-link:hover,.social-link:focus {background: var(--accent-color);
 color:var(--first-color);}
-
+.footer .social-icon {color: var(--first-color);}
 
 .client-item {flex-basis: calc(100% / 6 - 30px);
 }
