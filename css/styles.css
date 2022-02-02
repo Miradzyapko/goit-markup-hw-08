@@ -93,7 +93,7 @@ align-items: center;
 
 .header-contact-list {display: flex;}
 .header-contact-item:not(:last-child) {margin-right: 50px;} 
-
+.header-contact-item {transition: var(--accent-color) 250ms linear 250ms;}
 
 
 
@@ -104,7 +104,8 @@ display: flex;}
 
 
 .header-icon {margin-right: 10px;
-fill:currentColor;}
+fill:currentColor;
+}
 
 .header-nav-link {font-weight: 500;
 letter-spacing: 0.02em;
@@ -153,6 +154,7 @@ line-height:1.88 ;
 letter-spacing: 0.06em;
 text-align: center;
 padding: 10px 32px;
+
 
 }
 
