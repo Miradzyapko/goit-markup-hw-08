@@ -225,6 +225,8 @@ margin-bottom: 10px;
 
 
 .work-item {flex-basis: calc(100% / 3 - 30px);}
+.work-title-item {
+flex-basis: calc(100% / 3 - 30px);}
 .team {background-color: var(--bg-color-team);}
 
 .team-item {flex-basis: calc(100% / 4 - 30px);
