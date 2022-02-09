@@ -293,7 +293,7 @@ align-items: center;
 border-radius: 50% ;
 background-color:var(--bg-color-icon-footer);
 color:var(--inher-border-color);
-transition: background-color, color var(--transition);
+transition: background-color var(--transition), color var(--transition);
 }
 .social-item:not(:last-child) {margin-right: 10px;}
 
@@ -357,6 +357,7 @@ color: var(--first-color);
 .footer-container {display: flex;
 align-items: baseline;}
 .footer-cont-item:not(:last-child) {margin-right: 70px;}
+
 .footer-title {font-size: 14px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -397,7 +398,7 @@ line-height: 1.63;
 font-size: 16px;
 letter-spacing: 0.03em;
 padding: 6px 22px;
-transition: color, background-color var(--transition);
+transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 
 }
 .button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
@@ -419,7 +420,7 @@ line-height: 1.56;
 height: 294px;
 width: 100%;
 transform: translateY(100%);
-transition:var(--transition);
+transition: transform var(--transition);
 padding: 63px 24px;
 }
 
@@ -432,7 +433,8 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 background: var(--first-color);
 }
 .portfolio-link {display: flex;
-flex-direction: column;}
+flex-direction: column;
+transition: transform var(--transition) ;}
 
 
 
@@ -464,7 +466,7 @@ transition: opacity var(--transition),
 visibility var(--transition);
 
 }
-.backdrop .is-hidden .modal {transform: translate(-50%, -50%) scale(0); 
+.backdrop.is-hidden .modal {transform: translate(-50%, -50%) scale(0); 
 }
 .modal {width: 528px;
 height: 581px; 
@@ -474,6 +476,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%) scale(1);
+transition: var(--transition);
 padding: 40px;
 
 
@@ -508,15 +511,18 @@ height: 18px;
 position: absolute;
 left: 15px;
 top: 50%;
-transform: translateY(-50%);}
+transform: translateY(-50%);
+}
 .input-wrap {position: relative;}
 .form-text {width: 100%;
 height: 120px;
 border-radius: 5px;}
-.form-field {margin-bottom: 10px;}
+.form-field {margin-bottom: 10px;
+margin-right: 10px;}
 
-
-
+.form-input:focus {color: var(--accent-color);}
+.input-icon:hover, .input-icon:focus {fill: var(--accent-color);
+outline: var(--accent-color);}
 
 .policy-icon {fill: transparent;
 border-radius: 2px;
@@ -526,6 +532,8 @@ margin-right: 5px;}
 background-color: var(--accent-color);}
 .policy-text {text-decoration-line:underline;
 color: var(--accent-color);}
+.policy-link {color: var(--accent-color);
+margin-left: 5px;}
 .btn {margin: 0 auto;
 width: 200px;
 height: 50px;
