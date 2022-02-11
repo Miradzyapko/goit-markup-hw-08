@@ -1,0 +1,23 @@
+.work-item {flex-basis: calc(100% / 3 - 30px);
+position: relative;}
+
+
+   
+
+.menu-work-wrap {position: absolute;
+bottom: 0;
+left: 0;
+display: flex;
+justify-content: center;
+background-color:var(--bgcolor-menu-work);
+color: var(--first-color);
+height:70px ;
+width: 100%;
+align-content: center;
+padding-top:27px;
+padding-bottom: 27px;
+}
+.menu-title-text {line-height: 1.17;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0.03em;}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,AAAC,CACb,KAAK,CAAE,IAAI,CACX,MAAM,CAAC,IAAI,CAIV,AACD,AAAA,iBAAiB,AAAC,CAClB,MAAM,CAAE,KAAK,CACb,aAAa,CAAE,MAAM,CACrB,eAAe,CAAE,MAAM,CACvB,aAAa,CAAE,GAAG,CAClB,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,oBAAoB,CAChC,aAAa,CAAE,IAAI,CACnB,OAAO,CAAE,IAAI,CACZ",
+    "sources": [
+        "../sass/components/future.scss"
+    ],
+    "names": [],
+    "file": "future.min.css"
+}
