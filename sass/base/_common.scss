@@ -17,7 +17,14 @@ margin-top: 30px;}
 img {display: block;
     max-width: 100%;
     height: auto;}
-   
+ .logo {color:var(--accent-color);
+font-family: "Raleway";
+font-size: 26px;
+font-weight: 700;
+line-height: 1.17;
+display: block;
+}
+  
   
 .card-set {display: flex;
 flex-wrap: wrap;
@@ -25,14 +32,7 @@ margin-right:-30px;
 margin-bottom:-30px;  
 }  
    
-   .logo {color:var(--accent-color);
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.17;
-display: block;
-}
-
+   
 
 
 .footer .social-icon {color: var(--first-color);}

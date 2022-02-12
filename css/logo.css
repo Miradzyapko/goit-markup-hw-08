@@ -1,16 +1,16 @@
-.header .logo {
-  margin-right: 93px;
+.header_logo {
+  color: var(--color-second);
 }
 
-.header-logo-second {
-  color: var(--color-second);
+.header .logo {
+  margin-right: 93px;
 }
 
 .footer .logo {
   margin-bottom: 20px;
 }
 
-.footer-logo-second {
+.footer_logo {
   color: var(--first-color);
 }
 
