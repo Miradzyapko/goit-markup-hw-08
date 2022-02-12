@@ -9,6 +9,11 @@
   align-items: center;
 }
 
+.site_nave_list {
+  display: flex;
+  align-items: center;
+}
+
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -40,7 +45,7 @@
   fill: currentColor;
 }
 
-.header-nav-link {
+.site_nave_link {
   font-weight: 500;
   letter-spacing: 0.02em;
   display: flex;
@@ -48,7 +53,7 @@
   transition: color var(--transition);
 }
 
-.header-nav-link:hover, .header-nav-link:focus, .header-nav-link.current {
+.site_nave_link:hover, .site_nave_link:focus, .site_nave_link.current {
   color: var(--accent-color);
 }
 
