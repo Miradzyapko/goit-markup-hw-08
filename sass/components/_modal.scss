@@ -1,0 +1,47 @@
+.backdrop {width:100vw;
+height: 100%;
+position: fixed;
+top: 0;
+background-color: rgba(157, 164,189, 0.62) ;
+transition: opacity var(--transition),
+visibility var(--transition);
+
+}
+.backdrop.is-hidden .modal {transform: translate(-50%, -50%) scale(0); 
+}
+.modal {width: 528px;
+height: 581px; 
+background-color: var(--first-color);
+border-radius: 5px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(1);
+transition: var(--transition);
+padding: 40px;
+
+
+}
+.modal-title {font-size: 20px;
+font-weight: 700;
+line-height:1.17;
+text-align: center;
+ color: var(--color-second);
+ margin-bottom: 12px;
+}
+
+
+.modal-close { width: 30px;
+background-color:var(--first-color);
+height: 30px;
+position: absolute;
+border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.1);
+display:flex;
+align-items:center;
+justify-content:center;
+top:8px;
+right:8px;
+}
+.modal-close:hover, .modal-close:focus {fill: var(--accent-color);
+transition: fill var(--transition);}

@@ -12,6 +12,9 @@ margin-bottom: 20px;}
 
 .adress {font-style:normal;
 }
+
+
+
 .footer-link:hover,.footer-link:focus {color: var(--accent-color);}
 .footer-link {color:var(--footer-color);   
  transition: color var(--transition);   
@@ -40,11 +43,18 @@ letter-spacing: 0.03em;
 margin-bottom: 20px;
 
 }
-.footer .social-icon {color: var(--first-color);}
+
 .footer-input {width: 358px;
 height: 50px;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 16px;
-flex-direction: column;
+
+}
+.icon-footer {fill: var(--first-color);
+margin-left: 10px;
+top:  5%;
+transform:translateY(-5%);
+display: inline-block;
+
 }

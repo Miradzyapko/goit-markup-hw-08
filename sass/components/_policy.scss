@@ -1,0 +1,10 @@
+.policy-icon {fill: transparent;
+border-radius: 2px;
+border: 2px solid  #212121;
+margin-right: 5px;}
+.policy-check:checked + .check-text .policy-icon {border: none;
+background-color: var(--accent-color);}
+.policy-text {text-decoration-line:underline;
+color: var(--accent-color);}
+.policy-link {color: var(--accent-color);
+margin-left: 5px;}

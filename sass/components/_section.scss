@@ -1,2 +1,10 @@
  .section {padding-top: 94px;
 padding-bottom:94px ;}
+.section-item:not(:last-child) {margin-right: 30px;}
+
+.section-title {font-size: 36px;
+color: var(--color-second);
+line-height: 1.17;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+text-align:center;}

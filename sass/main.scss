@@ -1,5 +1,6 @@
-@import "./header";
-@import "./variables";
+@import "./components/header";
+@import "./components/container";
+@import "./utils/variables";
 @import "./base/common";
 @import "./base/reset";
 @import "./components/hero";
@@ -12,3 +13,9 @@
 @import "./components/clients";
 @import "./components/section";  
 @import "./components/logo";
+@import "./utils/is-hidden";
+@import "./components/social-contacts";
+@import "./components/modal";
+@import "./components/input";
+@import "./components/portfolio";
+@import "./components/policy";

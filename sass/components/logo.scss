@@ -1,7 +1,13 @@
-.logo {color:var(--accent-color);
-font-family: "Raleway";
-font-size: 26px;
-font-weight: 700;
-line-height: 1.17;
-display: block;
+  
+ 
+
+.header .logo {
+margin-right: 93px;
 }
+.header-logo-second {color:var(--color-second);}
+.footer .logo {margin-bottom: 20px;
+  
+}
+.footer-logo-second {color: var(--first-color);}
+.logo link  {color:var(--accent-color);
+margin-bottom: 20px;}

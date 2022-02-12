@@ -43,7 +43,9 @@ margin-left: 12px;
 
 }
 .btn-footer {position: absolute;}
-.button-primary {
+.btn-footer:hover, .btn-footer:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: color var(--transition), background-color var(--transition), box-shadow var(--transition); }
+    .button-primary {
 font-weight: 500;
 line-height: 1.63;
 font-size: 16px;
@@ -54,3 +56,12 @@ transition: color var(--transition), background-color var(--transition), box-sha
 }
 .button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
     color:var(--btn-color); box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12) ;}
+.btn {margin: 0 auto;
+width: 200px;
+height: 50px;
+align-items: center;
+justify-content: center;
+display: block;
+border-radius: 4px;
+}
+.btn:hover, .btn:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);}
