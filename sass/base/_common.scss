@@ -6,17 +6,18 @@ letter-spacing:  0.03em;
 color: var(--color-primery);
 }
    
-   .item {margin-left: 30px;
+   .item {/*margin-left: 30px;*/
 margin-top: 30px;}
-
+   
    
    .link { color: inherit;
     text-decoration: none ;}
 .list {list-style: none;}
 
-img {display: block;
+img {
     max-width: 100%;
     height: auto;}
+
  .logo {color:var(--accent-color);
 font-family: "Raleway";
 font-size: 26px;
@@ -26,10 +27,18 @@ display: block;
 }
   
   
-.card-set {display: flex;
-flex-wrap: wrap;
+.card-set {/*display: flex;
+flex-wrap: wrap;*/
 margin-right:-30px;
 margin-bottom:-30px;  
+
+@media screen and (min-width: 768px) {display: flex;
+flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1200px) {display: flex;
+flex-wrap: wrap;}
+
 }  
    
    

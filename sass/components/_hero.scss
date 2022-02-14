@@ -2,8 +2,8 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bgimg.jpg");
     background-repeat: no-repeat; background-position: center; background-size:cover;
 text-align: center;
-padding-bottom: 200px;
-padding-top: 200px;
+padding-bottom: 118px;
+padding-top: 118px;
 max-width: 1600px;
 margin-left: auto;
 margin-right:auto;
@@ -11,10 +11,15 @@ margin-right:auto;
 
 .hero-title {color:var(--first-color);
 text-transform: uppercase;
-font-size: 44px;
+font-size: 26px;
 font-weight: 900;
 line-height: 1.36;
 letter-spacing: 0.06em;
 margin-bottom: 30px;
 
+ @media screen and(min-width: 768px)
+        {font-size: 26px;
+        line-height: 1.62;}
+    
 }
+    

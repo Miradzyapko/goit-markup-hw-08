@@ -1,10 +1,12 @@
  .section {padding-top: 94px;
 padding-bottom:94px ;}
-.section-item:not(:last-child) {margin-right: 30px;}
+.team-item:not(:last-child) {margin-right: 30px;}
 
-.section-title {font-size: 36px;
+.section-title {/*font-size: 36px;*/
+ font-size: 28px;   
 color: var(--color-second);
 line-height: 1.17;
 letter-spacing: 0.03em;
-margin-bottom: 50px;
+/*margin-bottom: 50px;*/
+margin-bottom: 30px;
 text-align:center;}
